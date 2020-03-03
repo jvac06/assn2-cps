@@ -7,19 +7,19 @@ namespace assn2_cps
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Question 1");
+/*            Console.WriteLine("Question 1");
             int[] l1 = new int[] { 5, 6, 6, 9, 9, 12 };
             int target = 9;
             int[] r = TargetRange.TargetRangeSoln(l1, target);
             // Write your code to print range r here 
-            Console.WriteLine("[" + r[0] + "," + r[1] + "]");
+            Console.WriteLine("[" + r[0] + "," + r[1] + "]");*/
 
             Console.WriteLine("Question 2");
             string s = "University of South Florida";
             string rs = StringReverse.StringReverseSoln(s);
             Console.WriteLine(rs);
 
-            Console.WriteLine("Question 3");
+/*            Console.WriteLine("Question 3");
             int[] l2 = new int[] { 2, 2, 3, 5, 6 };
             int sum = MinimumSum.MinimumSumSoln(l2);
             Console.WriteLine(sum);
@@ -57,7 +57,7 @@ namespace assn2_cps
 
             Console.WriteLine("Question 9");
             SolvePuzzle.SolvePuzzleSoln();
-
+*/
         }
     }
 }
